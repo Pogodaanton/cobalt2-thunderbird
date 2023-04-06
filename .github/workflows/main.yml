@@ -8,18 +8,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Tag recent commit on main
+      id: tag_version
+      uses: mathieudutour/github-tag-action@v6.1
+      with:
+        tag_prefix: ''
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Insert extension version into manifest.json
+      uses: jossef/action-set-json-field@v2.1
+      with:
+        file: manifest.json
+        field: version
+        value: ${{ steps.tag_version.outputs.new_tag }}
     - name: Package root repository contents as a ZIP file.
       uses: TheDoctor0/zip-release@0.7.1
       with:
         type: 'zip'
         filename: 'cobalt2.xpi'
         exclusions: '*.git* *.github*'
-    - name: Tag recent commit on main
-      id: tag_version
-      uses: mathieudutour/github-tag-action@v6.1
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        dry_run: true
     - name: Upload artifact and release on GitHub
       uses: ncipollo/release-action@v1.12.0
       with:
