@@ -5,8 +5,8 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{96eca668-abbf-44cd-8bd3-91e485429d25}",
-      "strict_min_version": "78.0",
-      "strict_max_version": "110.*"
+      "strict_min_version": "100.0",
+      "strict_max_version": "102.*"
     }
   },
   "description": "A faithful port of the original Cobalt2 theme by Wes Bos.",
