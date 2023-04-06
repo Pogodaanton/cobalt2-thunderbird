@@ -34,7 +34,7 @@ jobs:
         tag: ${{ steps.tag_version.outputs.new_tag }}
         name: Release ${{ steps.tag_version.outputs.new_tag }}
         body: |
-          You can download the extension in Firefox by right-clicking the ".xpi" file and selecting "Save Link As...".
-          
+          > You can download the extension in Firefox by right-clicking the ".xpi" file and selecting "Save Link As...".
+
           ${{ steps.tag_version.outputs.changelog }}
       
