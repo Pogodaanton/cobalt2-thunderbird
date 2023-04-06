@@ -1,0 +1,22 @@
+name: Release-o-bot
+on:
+  push:
+    branches:
+    - main
+jobs:
+  package_as_zip:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Package root repository contents as a ZIP file.
+      uses: TheDoctor0/zip-release@0.7.1
+      with:
+        type: 'zip'
+        filename: 'cobalt2.xpi'
+        exclusions: '*.git* *.github*'
+    - name: Upload artifact and release on GitHub
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifactErrorsFailBuild: true
+        artifacts: "cobalt2.xpi"
+      
