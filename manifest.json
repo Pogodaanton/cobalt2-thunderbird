@@ -1,0 +1,86 @@
+{
+  "manifest_version": 2,
+  "name": "Cobalt2",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{96eca668-abbf-44cd-8bd3-91e485429d25}",
+      "strict_min_version": "78.0",
+      "strict_max_version": "110.*"
+    }
+  },
+  "description": "A faithful port of the original Cobalt2 theme by Wes Bos.",
+  "theme": {
+    "colors": {
+      "frame": "#15232d",
+      "frame_inactive": "#193549",
+      "tab_text": "#fff",
+      "tab_selected": "#193549",
+      "tab_line": "#ffc600",
+      "tab_loading": "#0088ff",
+      "tab_background_text": "#aaaaaa",
+      "tab_background_separator": "#15232d",
+      "toolbar": "#15232d",
+      "icons": "#ffc600",
+      "icons_attention": "#ffc600",
+      "toolbar_text": "#aaaaaa",
+      "toolbar_field": "#193549",
+      "toolbar_field_text": "#aaaaaa",
+      "toolbar_field_border": "#0d3a58",
+      "toolbar_field_focus": "#193549",
+      "toolbar_field_text_focus": "#ffc600",
+      "toolbar_field_border_focus": "#0d3a58",
+      "toolbar_field_highlight": "#027dff",
+      "toolbar_field_highlight_text": "#ffc600",
+      "toolbar_top_separator": "#0d3a58",
+      "toolbar_bottom_separator": "#0d3a58",
+      "toolbar_vertical_separator": "#0d3a58",
+      "sidebar": "#193549",
+      "sidebar_text": "#cccccc",
+      "sidebar_border": "#3b5364",
+      "sidebar_highlight_border": "#193549",
+      "sidebar_highlight": "#193549",
+      "sidebar_highlight_text": "#fff",
+      "c_folder_pane": "#15232d",
+      "c_folder_pane_text": "#cccccc",
+      "popup": "#122738",
+      "popup_text": "#ffffff",
+      "popup_border": "#606060",
+      "popup_highlight": "#193549",
+      "popup_highlight_text": "#ffffff",
+      "button_background_hover": "rgba(255,255,255,0.15)",
+      "button_background_active": "#0088ff",
+      "c_calendar_weekend": "rgba(81, 138, 178, 0.38)",
+      "c_calendar_today": "rgba(0, 0, 0, 0.4)",
+      "c_calendar_today_label": "#ffc600",
+      "c_calendar_today_label_text": "#000",
+      "c_calendar_today_label_border": "#ffc600",
+      "c_spaces": "#122738",
+      "c_spaces_text": "#717d88",
+      "c_spaces_active": "#15232d",
+      "c_spaces_active_text": "#fff",
+      "c_spaces_active_border": "#fff"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    }
+  },
+  "theme_experiment": {
+    "stylesheet": "style.css",
+    "colors": {
+      "c_folder_pane": "--folder-pane-background-color",
+      "c_folder_pane_text": "--folder-pane-text-color",
+      "c_calendar_weekend": "--viewWeekendBackground",
+      "c_calendar_today": "--viewDayBoxSelectedBackground",
+      "c_calendar_today_label": "--viewTodayLabelBackground",
+      "c_calendar_today_label_text": "--viewTodayLabelColor",
+      "c_calendar_today_label_border": "--viewTodayBorderColor",
+      "c_spaces": "--spaces-bg-color",
+      "c_spaces_text": "--spaces-button-text-color",
+      "c_spaces_active": "--spaces-button-active-bg-color",
+      "c_spaces_active_text": "--spaces-button-active-text-color",
+      "c_spaces_active_border": "--spaces-button-active-border-color"
+    }
+  }
+}

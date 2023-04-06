@@ -1,0 +1,15 @@
+#folderPaneBox tree {
+  background-color: var(--folder-pane-background-color);
+  color: var(--folder-pane-text-color) !important;
+}
+
+.spaces-toolbar-button {
+  transition: none;
+}
+
+.spaces-toolbar-button.current, .spaces-toolbar-button.current:hover, #spacesAccentPlaceholder {
+  border-left-color: var(--spaces-button-active-border-color);
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: -2px;
+}
