@@ -13,3 +13,37 @@
   border-left-style: solid;
   margin-left: -2px;
 }
+
+#threadPane #quick-filter-bar, #threadPane #threadPaneHeaderBar {
+  background-color: var(--toolbar-bgcolor);
+  border: none;
+}
+
+/* mm variables are overridden by Thunderbird in dark mode, so we have to override *that* */
+/* TODO: Find an alternative to this ASAP */
+calendar-minimonth {
+  --mmMainBackground: var(--cmmMainBackground) !important;
+  --mmMainBorderColor: var(--cmmMainBorderColor) !important;
+  --mmMainColor: var(--cmmMainColor) !important;
+  --mmDayWeekColor: var(--cmmDayWeekColor) !important;
+  --mmDayTodayBackground: var(--cmmDayTodayBackground) !important;
+}
+
+/* mm uses some other type of button */
+#calMinimonth .minimonth-header {
+  --mmBoxBackground: var(--cmmBoxBackground) !important;
+  fill: color-mix(in srgb, currentColor 20%, var(--cmmBoxColor));
+  stroke: var(--cmmBoxColor);
+}
+
+#calMinimonth .minimonth-nav-item {
+  border-color: transparent;
+}
+
+#messagePane #messagepanebox {
+  --layout-background-1: var(--c-message-pane-box-background) !important;
+}
+
+.tabmail-tab:hover .tab-line:not([selected="true"]) {
+  background-color: var(--c-tab-line-hover-background);
+}
