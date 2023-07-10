@@ -6,7 +6,7 @@
     "gecko": {
       "id": "{96eca668-abbf-44cd-8bd3-91e485429d25}",
       "strict_min_version": "115.0",
-      "strict_max_version": "116.*"
+      "strict_max_version": "117.*"
     }
   },
   "description": "A faithful port of the original Cobalt2 theme by Wes Bos.",
@@ -41,10 +41,11 @@
       "sidebar_border": "#0d3a58",
       "c_sidebar_border_fix1": "transparent",
       "sidebar_highlight_border": "#193549",
-      "sidebar_highlight": "#193549",
+      "sidebar_highlight": "#1f4662",
       "sidebar_highlight_text": "#fff",
       "c_tree_view_bg": "#193549",
       "c_tree_view_color": "#cccccc",
+      "c_tree_view_header_hover": "#1f4662",
       "popup": "#122738",
       "popup_text": "#ffffff",
       "popup_border": "#606060",
@@ -121,6 +122,7 @@
       "c_spaces_active_border": "--spaces-button-active-border-color",
       "c_tree_view_bg": "--tree-view-bg",
       "c_tree_view_color": "--tree-view-color",
+      "c_tree_view_header_hover": "--tree-view-header-hover-bg",
       "c_button_alt": "--button-background-color",
       "c_button_alt_border": "--button-border-color",
       "c_button_alt_hover": "--button-hover-background-color",

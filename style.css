@@ -40,7 +40,7 @@ calendar-minimonth {
   border-color: transparent;
 }
 
-#messagepanebox {
+#messagePane #messagepanebox {
   --layout-background-1: var(--c-message-pane-box-background) !important;
 }
 
