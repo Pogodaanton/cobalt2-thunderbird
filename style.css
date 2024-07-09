@@ -7,14 +7,17 @@
   transition: none;
 }
 
-.spaces-toolbar-button.current, .spaces-toolbar-button.current:hover, #spacesAccentPlaceholder {
+.spaces-toolbar-button.current,
+.spaces-toolbar-button.current:hover,
+#spacesAccentPlaceholder {
   border-left-color: var(--spaces-button-active-border-color);
   border-left-width: 2px;
   border-left-style: solid;
   margin-left: -2px;
 }
 
-#threadPane #quick-filter-bar, #threadPane #threadPaneHeaderBar {
+#threadPane #quick-filter-bar,
+#threadPane #threadPaneHeaderBar {
   background-color: var(--toolbar-bgcolor);
   border: none;
 }
@@ -46,4 +49,13 @@ calendar-minimonth {
 
 .tabmail-tab:hover .tab-line:not([selected="true"]) {
   background-color: var(--c-tab-line-hover-background);
+}
+
+#tabs-toolbar {
+  background-image: none !important;
+  background-color: #121e26;
+}
+
+#tabs-toolbar .tabmail-tab:hover .tab-background:not([selected="true"]) {
+  background-color: transparent;
 }

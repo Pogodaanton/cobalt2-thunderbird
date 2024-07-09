@@ -10,5 +10,15 @@
     "stylus",
     "xml",
     "svg"
+  ],
+  "vscode-color-picker.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "postcss",
+    "xml",
+    "html",
+    "json"
   ]
 }
