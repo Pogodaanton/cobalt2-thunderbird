@@ -63,8 +63,8 @@
       "c_indicator_border_selected": "#ffc600",
       "c_indicator_border_selected_unfocused": "#ffc600",
       "c_tree_card": "#193549",
-      "c_tree_card_selected": "#265272",
-      "c_tree_card_selected_unfocused": "#265272",
+      "c_tree_card_selected": "#1f4662",
+      "c_tree_card_selected_unfocused": "#1f4662",
       "c_tree_card_border": "#334b5e",
       "c_tree_card_border_selected": "#334b5e",
       "c_tree_card_border_selected_unfocused": "#334b5e"
@@ -82,7 +82,7 @@
       "c_layout_border_2": "#15232d",
       "c_layout_border_3": "#0d3a58",
       "c_layout_border_4": "#0d3a58",
-      "c_tree_pane_bg": "#112636"
+      "c_tree_pane_bg": "#15232d"
     }
   },
   "theme_experiment": {
