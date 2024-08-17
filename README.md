@@ -1,5 +1,8 @@
 # Cobalt2 for Thunderbird
 
+> Jump straight to:
+> [Install Cobalt2 for Thunderbird](#download-and-install-releases)
+
 An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/cobalt2-vscode) for Thunderbird.
 
 ## Key Features and Design Philosophy
