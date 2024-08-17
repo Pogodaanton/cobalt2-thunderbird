@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "kamikillerto.vscode-colorize"
+    "kamikillerto.vscode-colorize",
+    "esbenp.prettier-vscode",
+    "markosth09.color-picker"
   ]
 }

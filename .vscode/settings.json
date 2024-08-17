@@ -20,5 +20,22 @@
     "xml",
     "html",
     "json"
-  ]
+  ],
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "conventionalCommitBuilder.disableEmoji": true,
+  "conventionalCommitBuilder.scopes": [
+    "mails",
+    "tabs",
+    "calendar",
+    "tasks",
+    "addresses",
+    "chat",
+    "sidebar",
+    "mail-view"
+  ],
+  "conventionalCommitBuilder.disableReference": true,
+  "conventionalCommitBuilder.template": "<type><scope>: <description>\\n\\n<body>\\n\\n<footer>"
 }
