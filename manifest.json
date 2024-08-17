@@ -6,7 +6,7 @@
     "gecko": {
       "id": "{96eca668-abbf-44cd-8bd3-91e485429d25}",
       "strict_min_version": "128.0",
-      "strict_max_version": "128.*"
+      "strict_max_version": "129.*"
     }
   },
   "description": "A faithful port of the original Cobalt2 theme by Wes Bos.",
@@ -58,6 +58,10 @@
       "c_spaces_active": "#15232d",
       "c_spaces_active_text": "#fff",
       "c_spaces_active_border": "#fff",
+      "c_tree_list_item_selected": "#193549",
+      "c_tree_list_item_border_selected": "#334b5e",
+      "c_tree_list_indicator": "#193549",
+      "c_tree_list_indicator_border": "#334b5e",
       "c_tree_view_bg": "#193549",
       "c_tree_view_color": "#cccccc",
       "c_tree_view_header_hover": "#1f4662",
@@ -84,7 +88,11 @@
       "c_layout_border_2": "#15232d",
       "c_layout_border_3": "#0d3a58",
       "c_layout_border_4": "#0d3a58",
-      "c_tree_pane_bg": "#15232d"
+      "c_tree_pane_bg": "#15232d",
+      "c_tree_list_item_selected_unfocused": "var(--list-container-background-selected-current-focused)",
+      "c_tree_list_item_border_selected_unfocused": "var(--list-container-border-selected-current-focused)",
+      "c_tree_list_indicator_selected_unfocused": "var(--list-indicator-background-selected-focused)",
+      "c_tree_list_indicator_border_selected_unfocused": "var(--list-indicator-border-selected-focused)"
     }
   },
   "theme_experiment": {
@@ -116,6 +124,10 @@
       "c_tree_view_color": "--tree-view-color",
       "c_tree_view_header_hover": "--tree-view-header-hover-bg",
       "c_tree_view_bg": "--tree-view-bg",
+      "c_tree_list_item_selected": "--list-container-background-selected-current-focused",
+      "c_tree_list_item_border_selected": "--list-container-border-selected-current-focused",
+      "c_tree_list_indicator": "--list-indicator-background-selected-focused",
+      "c_tree_list_indicator_border": "--list-indicator-border-selected-focused",
       "c_button": "--button-background-color",
       "c_button_hover": "--button-hover-background-color",
       "c_button_active": "--button-active-background-color",
@@ -151,7 +163,11 @@
       "c_layout_border_2": "--layout-border-2",
       "c_layout_border_3": "--layout-border-3",
       "c_layout_border_4": "--layout-border-4",
-      "c_tree_pane_bg": "--tree-pane-background"
+      "c_tree_pane_bg": "--tree-pane-background",
+      "c_tree_list_indicator_selected_unfocused": "--list-indicator-background-selected",
+      "c_tree_list_indicator_border_selected_unfocused": "--list-indicator-border-selected",
+      "c_tree_list_item_selected_unfocused": "--list-container-background-selected-current",
+      "c_tree_list_item_border_selected_unfocused": "--list-container-border-selected-current"
     }
   }
 }
