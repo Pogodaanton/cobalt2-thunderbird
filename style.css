@@ -51,6 +51,9 @@ calendar-minimonth {
   background-color: var(--c-tab-line-hover-background);
 }
 
+/* >= 128.* */
+
+/* Tabs toolbar has hardcoded background colors in 128.* */
 #tabs-toolbar {
   background-image: none !important;
   background-color: #121e26;
@@ -58,4 +61,16 @@ calendar-minimonth {
 
 #tabs-toolbar .tabmail-tab:hover .tab-background:not([selected="true"]) {
   background-color: transparent;
+}
+
+/* For improved contrast, we prefer check buttons to use the gold accent color instead of the lightblue one as the indicator */
+.button {
+  &.check-button {
+    --button-primary-background-color: var(
+      --cobalt-button-indicator-active-background-color
+    );
+    --button-primary-border-color: var(
+      --cobalt-button-indicator-active-border-color
+    );
+  }
 }
