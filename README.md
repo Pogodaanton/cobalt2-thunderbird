@@ -9,7 +9,7 @@ An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/
 - Patches missing theme properties in Thunderbird's extension framework in order to keep the theme consistent across all parts of Thunderbird
 - Supports only latest Thunderbird ESR builds, no backwards compatibility
 
-## Download and Releases
+## Download and Install Releases
 
 To always have the most up-to-date version of the theme:
 
