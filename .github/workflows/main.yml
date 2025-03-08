@@ -20,6 +20,12 @@ jobs:
         file: manifest.json
         field: version
         value: ${{ steps.tag_version.outputs.new_tag }}
+    - name: Read manifest.json into cache
+      id: manifest_props
+      uses: ActionsTools/read-json-action@main
+      with:
+        file_path: manifest.json
+        prop_path: "browser_specific_settings.gecko"
     - name: Package root repository contents as a ZIP file.
       uses: TheDoctor0/zip-release@0.7.1
       with:
@@ -34,7 +40,12 @@ jobs:
         tag: ${{ steps.tag_version.outputs.new_tag }}
         name: Release ${{ steps.tag_version.outputs.new_tag }}
         body: |
-          > You can download the extension in Firefox by right-clicking the ".xpi" file and selecting "Save Link As...".
+          This release supports the following Thunderbird versions:
+          - min (inclusive) v${{ steps.manifest_props.outputs.value.strict_min_version }}
+          - max (inclusive) v${{ steps.manifest_props.outputs.value.strict_max_version }}
 
+          > You can download the extension by right-clicking the ".xpi" file below and selecting "Save Link As...".
+
+          ## Changelog
           ${{ steps.tag_version.outputs.changelog }}
       
