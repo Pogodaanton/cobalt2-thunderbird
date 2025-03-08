@@ -1,16 +1,19 @@
 # Cobalt2 for Thunderbird
 
-> Jump straight to:
+> Shortcut:
 > [Install Cobalt2 for Thunderbird](#download-and-install-releases)
 
 An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/cobalt2-vscode) for Thunderbird.
+
+[![Preview screenshot of the Thunderbird theme Cobalt2](https://github.com/Pogodaanton/cobalt2-thunderbird/blob/main/.github/cobalt2-thunderbird_example.png?raw=true)](#download-and-install-releases)
 
 ## Key Features and Design Philosophy
 
 - User interface colors provided by the official [VSCode theme](https://github.com/wesbos/cobalt2-vscode)
 - Contrast and minimalistic use of accent colors is first priority
-- Patches missing theme properties in Thunderbird's extension framework in order to keep the theme consistent across all parts of Thunderbird
-- Supports only latest Thunderbird ESR builds, no backwards compatibility
+- Missing theme properties in Thunderbird's extension framework are patched in order to keep the theme consistent across all parts of Thunderbird
+- Support for latest Thunderbird release builds only
+	- ESR versions are currently not actively maintained. If ESR userbase is large enough, active support will be considered.
 
 ## Download and Install Releases
 
