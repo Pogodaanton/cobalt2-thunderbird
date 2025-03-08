@@ -30,6 +30,9 @@ calendar-minimonth {
   --mmMainColor: var(--cmmMainColor) !important;
   --mmDayWeekColor: var(--cmmDayWeekColor) !important;
   --mmDayTodayBackground: var(--cmmDayTodayBackground) !important;
+  --mmDaySelectedColor: var(--cmmDaySelectedColor) !important;
+  --mmDaySelectedTodayBackground: var(--cmmDaySelectedTodayBackground) !important;
+  --mmDaySelectedTodayBorderColor: var(--cmmDaySelectedTodayBorderColor) !important;
 }
 
 /* mm uses some other type of button */
@@ -71,4 +74,29 @@ calendar-minimonth {
   --button-primary-border-color: var(
     --cobalt-button-indicator-active-border-color
   );
+}
+
+/* >= TB 138  */
+/* This one enable button has hard-coded values */
+#calendar-list > li > button.calendar-enable-button {
+  background: var(--button-primary-background-color) !important;
+}
+
+#calendar-list > li > button.calendar-enable-button:hover {
+  opacity: 0.8;
+}
+
+/* the default variable doesn't fit here, we have to creat a custom one */
+.day-column-heading {
+  .day-column-selected & {
+    color: var(--cobalt-calendar-selected-column-color) !important;
+  }
+  .day-column-today & {
+    color: var(--cobalt-calendar-today-column-color) !important;
+  }
+}
+calendar-day-label {
+  &[relation="today"] {
+    color: var(--cobalt-calendar-today-column-color) !important;
+  }
 }
