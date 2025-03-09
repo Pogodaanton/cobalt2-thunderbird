@@ -87,16 +87,13 @@ calendar-minimonth {
 }
 
 /* the default variable doesn't fit here, we have to creat a custom one */
-.day-column-heading {
-  .day-column-selected & {
-    color: var(--cobalt-calendar-selected-column-color) !important;
-  }
-  .day-column-today & {
-    color: var(--cobalt-calendar-today-column-color) !important;
-  }
+.day-column-selected .day-column-heading {
+  color: var(--cobalt-calendar-selected-column-color) !important;
 }
-calendar-day-label {
-  &[relation="today"] {
-    color: var(--cobalt-calendar-today-column-color) !important;
-  }
+.day-column-today .day-column-heading {
+  color: var(--cobalt-calendar-today-column-color) !important;
+}
+
+calendar-day-label[relation="today"] {
+  color: var(--cobalt-calendar-today-column-color) !important;
 }
