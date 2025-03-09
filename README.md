@@ -26,7 +26,7 @@ To always have the most up-to-date version of the theme:
 5. Install the theme and automatically receive updates
 
 > [!TIP]
-> Help spread the word by giving a review on the [add-ons page](https://addons.thunderbird.net/en-US/thunderbird/addon/cobalt2/) and help improving the theme by reporting bugs in the [issue tracker](https://github.com/Pogodaanton/cobalt2-thunderbird/issues).
+> Help improving the theme by reporting bugs in the [issue tracker](https://github.com/Pogodaanton/cobalt2-thunderbird/issues) and make sure to post a review on the [add-ons page](https://addons.thunderbird.net/en-US/thunderbird/addon/cobalt2/).
 
 If you'd like to manually install the extension, an archive of past versions can be found under [GitHub releases](https://github.com/Pogodaanton/cobalt2-thunderbird/releases).
 
