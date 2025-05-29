@@ -83,7 +83,8 @@
       "c_calendar_today_label_text": "#ffc600",
       "c_calendar_selected_border": "#ffc600",
       "c_calendar_selected_column_text": "#ffffff",
-      "c_calendar_today_column_text": "#ffc600"
+      "c_calendar_today_column_text": "#ffc600",
+      "c_calendar_weekend": "#122738"
     },
     "properties": {
       "color_scheme": "dark",
