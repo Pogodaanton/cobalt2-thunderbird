@@ -6,7 +6,7 @@
     "gecko": {
       "id": "{96eca668-abbf-44cd-8bd3-91e485429d25}",
       "strict_min_version": "136.0",
-      "strict_max_version": "141.*"
+      "strict_max_version": "143.*"
     }
   },
   "description": "A faithful port of the original Cobalt2 theme by Wes Bos.",
